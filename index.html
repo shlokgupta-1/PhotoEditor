@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY NEW PHOTO EDITOR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1 class="app-title">MY NEW PHOTO EDITOR</h1>
+    <canvas id="canvas" width="500" height="300"></canvas>
+
+    <div class="controls">
+      <div class="button-group">
+        <button id="remove-bg">Clear Background</button>
+        <button id="apply-filter">Make it 1880</button>
+        <button id="crop">Crop Image</button>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="upload-section">
+        <input type="file" id="image-upload" accept="image/*" />
+        <label for="image-upload">Upload Image</label>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
